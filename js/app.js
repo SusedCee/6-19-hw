@@ -48,35 +48,53 @@
 //}
 
 //Getting to Know You
-const kenny = ["Kenny", 1000, "Austin"];
-const jimHaff = ["Jim H", 16, "All cities"];
-const reuben = ["Reuben", 22, "Durham"];
-const jimClark = ["Jim C", 186, "LA"];
-const ryan = ["Ryan", 65, "Denver"];
+//const kenny = ["Kenny", 1000, "Austin"];
+//const jimHaff = ["Jim H", 16, "All cities"];
+//const reuben = ["Reuben", 22, "Durham"];
+//const jimClark = ["Jim C", 186, "LA"];
+//const ryan = ["Ryan", 65, "Denver"];
 
 //1.
-kenny.shift();
-kenny.unshift("Gameboy");
-console.log(kenny);
+//kenny.shift();
+//kenny.unshift("Gameboy");
+//console.log(kenny);
 
 //2.
-jimClark[1] = jimClark[1] + 1;
-console.log(jimClark);
+//jimClark[1] = jimClark[1] + 1;
+//console.log(jimClark);
 
 //3.
-ryan.pop();
-ryan.push("Gotham City")
-console.log(ryan);
+//ryan.pop();
+//ryan.push("Gotham City")
+//console.log(ryan);
 
 //4.
-reuben.pop();
-reuben.push("Chicago");
-console.log(reuben);
+//reuben.pop();
+//reuben.push("Chicago");
+//console.log(reuben);
 
 //5.
-jimHaff.pop();
-jimHaff.push('Dallas', 'Portland', 'Anchorage');
-console.log(jimHaff);
+//jimHaff.pop();
+//jimHaff.push('Dallas', 'Portland', 'Anchorage');
+//console.log(jimHaff);
+
+
+
+//Yell at the Ninja Turtles
+//1.
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+//2. 
+for(var i = 0; i < ninjaTurtles.length; i++){
+    ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+    console.log(ninjaTurtles);
+}
+
+
+
+
+
+// Return to Closets
+
 
 
 
