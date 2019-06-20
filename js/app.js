@@ -82,18 +82,70 @@
 
 //Yell at the Ninja Turtles
 //1.
-const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+//const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 //2. 
-for(var i = 0; i < ninjaTurtles.length; i++){
-    ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
-    console.log(ninjaTurtles);
-}
-
-
+//for(var i = 0; i < ninjaTurtles.length; i++){
+//    ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+//    console.log(ninjaTurtles);
+//}
 
 
 
 // Return to Closets
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+
+
+
+//Dirty Laundry
+//1.
+for (i = 0; i <kristynsCloset.length; i++){
+	console.log(`WHIRR: Now washing ${i}`);
+}
+//2.
+
+//Multiples of 3 and 5
+
+function sumOfMultiples(number){
+	let sum = 0
+
+	for (i = 1; i <1000; i++){
+		if (i%3 === 0 || i%5 === 0){
+			sum += i;
+		}
+	}
+}
+	
+
 
 
 
