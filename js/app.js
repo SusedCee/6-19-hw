@@ -17,6 +17,20 @@
 
 //2.
 //	console.log(`Love me, pet me! HSSSSSS! ${i}`); // logs the message 20 times
+//		if (i%2 === 0){
+//			function random_item(message).    // more info about this at: https://www.w3resource.com/javascript-exercises/javascript-array-exercise-35.php
+//			{
+//
+//			return message[Math.floor(Math.random()*message.length)];
+//			}
+//			var message = ["...human...why you taking pictures of me?...", 
+//			"...the catnip made me do it...", "...why does the red dot always get away..."]
+//		console.log(random_item(message));
+//		}
+//
+//}
+
+
 //	if (i%2 === 0){       //if i is an even number...
 //		var msg =[        // a random message 1 of 3 is displayed
 //		"...human...why you taking pictures of me?...",
@@ -34,18 +48,18 @@
 
 //FizzBuzz
 //1-5
-//for (let i = 1; i <= 100; i++){
-//		console.log(`${i}`);     // logs all numbers 1-100
-//	if(i%3 === 0){
-//		console.log("Fizz");
-//	}
-//	if(i%5 === 0){
-//		console.log("Buzz");
-//	}
-//	if(i%3 === 0 && i%5 === 0){
-//		console.log("FizzBuzz");
-//	}
-//}
+for (let i = 1; i <= 100; i++){
+		console.log(`${i}`);     // logs all numbers 1-100
+	if(i%3 === 0){
+		console.log("Fizz");
+	}
+	if(i%5 === 0){
+		console.log("Buzz");
+	}
+	if(i%3 === 0 && i%5 === 0){
+		console.log("FizzBuzz");
+	}
+}
 
 //Getting to Know You
 //const kenny = ["Kenny", 1000, "Austin"];
@@ -85,54 +99,58 @@
 //const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 //2. 
 //for(var i = 0; i < ninjaTurtles.length; i++){
-//    ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
-//    console.log(ninjaTurtles);
+//   ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+//   console.log(ninjaTurtles);
 //}
 
 
 
 // Return to Closets
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+//const kristynsCloset = [
+//  "left shoe",
+//  "cowboy boots",
+//  "right sock",
+//  "GA hoodie",
+//  "green pants",
+//  "yellow knit hat",
+//  "marshmallow peeps"
+//];
 
 // Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+//const thomsCloset = [
+//  [
+   // These are Thom's shirts
+//    "grey button-up",
+//    "dark grey button-up",
+//    "light blue button-up",
+//    "blue button-up",
+//  ],[
+//   // These are Thom's pants
+//    "grey jeans",
+//    "jeans",
+//    "PJs"
+//  ],[
+//    // Thom's accessories
+//    "wool mittens",
+//    "wool scarf",
+//    "raybans"
+//  ]
+//];
 
 
 //Dirty Laundry
 //1.
-for (i = 0; i <kristynsCloset.length; i++){
-	console.log(`WHIRR: Now washing ${i}`);
-}
-//2. Still need number 2
+// for (i = 0; i <kristynsCloset.length; i++){
+// 	console.log(`WHIRR: Now washing ${i}`);
+// }
+// 2. Still need number 2
 
-//Multiples of 3 and 5
 
+
+
+
+//Multiples of 3 and 5 
+// More info https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2
 //function sumOfMultiples(number){
 //	let sum = 0
 
@@ -141,9 +159,12 @@ for (i = 0; i <kristynsCloset.length; i++){
 //			sum += i;
 //		}
 //	}
+//	return sum;
 //}
-	
+//console.log(sumOfMultiples(5));
+//console.log(sumOfMultiples(3));
 
+	
 
 
 
