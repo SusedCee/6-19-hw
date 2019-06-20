@@ -129,7 +129,7 @@ const thomsCloset = [
 for (i = 0; i <kristynsCloset.length; i++){
 	console.log(`WHIRR: Now washing ${i}`);
 }
-//2.
+//2. Still need number 2
 
 //Multiples of 3 and 5
 
