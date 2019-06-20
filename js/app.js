@@ -4,22 +4,21 @@
 //Easy Going
 //1.
 //for (let i = 1; i <20; i++){
-//	console.log("Commit 1 - Easy Going answered");
-//}
+
 
 //Get Even
-for (let i = 0; i <200; i++){
-	if (i%2 === 0){
-	console.log(`Commit 2 - Get even answered ${i}`);
-	}
-}
+//for (let i = 0; i <200; i++){
+//	if (i%2 === 0)
+//}
 
 //Excited Kitten
 //1.
 //for (let i = 0; i <20; i++){
-//	console.log(`Love me, pet me! HSSSSSS! ${i}`);
-//	if (i%2 === 0){
-//		var msg =[
+
+//2.
+//	console.log(`Love me, pet me! HSSSSSS! ${i}`); // logs the message 20 times
+//	if (i%2 === 0){       //if i is an even number...
+//		var msg =[        // a random message 1 of 3 is displayed
 //		"...human...why you taking pictures of me?...",
 //		"...the catnip made me do it...",
 //		"...why does the red dot always get away..."
@@ -32,3 +31,72 @@ for (let i = 0; i <200; i++){
 //		//console.log("...the catnip made me do it...")
 //	}
 //}
+/
+
+
+
+//FizzBuzz
+//1-5
+for (let i = 1; i <= 100; i++){
+		console.log(`${i}`);     // logs all numbers 1-100
+	if(i%3 === 0){
+		console.log("Fizz");
+	}
+	if(i%5 === 0){
+		console.log("Buzz");
+	}
+	if(i%3 === 0 && i%5 === 0){
+		console.log("FizzBuzz");
+	}
+}
+//2.
+//	if(i%3 === 0){
+//		console.log("Fizz")
+//	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
